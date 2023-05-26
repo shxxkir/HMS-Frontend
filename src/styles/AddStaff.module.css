@@ -1,0 +1,131 @@
+.bgr{
+    background: url('../images/bg4.webp')no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+    .form{
+      background-color: white;
+      color: #162938;
+      font-weight: bold;
+      /* border: 3px solid #f1f1f1; */
+      position: absolute;
+      top: 53%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2; 
+      width: 500px;
+      padding: 25px 30px 40px;
+      text-align: center;
+      border-radius: 20px;
+      box-shadow: 0 0 30px rgba(0,0,0,.5);
+      border:2px solid rgb(255, 255, 255, .5);
+    }
+  
+    .addStaff{
+      margin-bottom: 25px;
+      color: #162938;
+    }
+    
+    .inp {
+      width: 85%;
+      padding: 10px;
+      margin: 5px 0 22px 0;
+      border: none;
+      background: #f1f1f1;
+      border-radius: 6px;
+    }
+    
+    .inp:focus{
+      background-color: #ddd;
+      outline: none;
+    }
+    
+    .radio{
+      margin-top: 60px;
+     }
+     
+     .male{
+       position: absolute;
+       top:53%;
+       left:12.5%;
+       width: 35%;
+       height: 40px;
+       color:black;
+       font-size: 16px;
+       padding:8px;
+       align-items: center;
+       cursor: pointer;
+       background-color: #f1f1f1;
+       border-radius: 6px;
+       
+     }
+     
+     .female{
+       position: absolute;
+       top:53%;
+       right:12.5%;
+       width: 35%;
+       height: 40px;
+       color:black;
+       font-size: 16px;
+       padding:8px;
+       align-items: center;
+       cursor: pointer;
+       background-color: #f1f1f1;
+       border-radius: 6px;
+     }
+      
+    .male:hover{
+      background-color: rgb(130, 180, 226);
+      color: black;
+    }
+     
+    .female:hover{
+      background-color: pink;
+      color: black;
+    }
+     
+     /* label:before{
+       content:"";
+       height:5px;
+       width:50px;
+       border:3px solid rgb(10, 17, 80);
+       border-radius: 50%;
+       margin-right: 1px;
+     } */
+     
+     .radio1{
+      display: none;
+     }
+    
+     .radio1:checked + .male{
+      background-color: rgb(130, 180, 226);
+     }
+    
+     .radio1:checked + .female{
+      background-color: pink;
+     }
+     
+     /* input[type="radio"]:checked + label:before{
+       position: absolute;
+       left:10%;
+       height:3px;
+       width:3px;
+     } */
+    
+    .btn{
+      padding: 5px;
+      width: 85%;
+      background-color:#162938;
+      border:none;
+      outline:none;
+      border-radius: 6px;
+      cursor:pointer;
+      font-size: 1em;
+      color:white;
+      font-weight:500;
+    }
+    
+    
