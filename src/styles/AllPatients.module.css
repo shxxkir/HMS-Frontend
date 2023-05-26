@@ -1,0 +1,123 @@
+.bgr{
+  background: url('../images/Home.jpg')no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.container1{
+    position: absolute;
+    left: 50%;
+    top: 48%;
+    transform: translate(-50%, -50%);
+}
+
+.table {
+    position: relative;
+    width: 1000px;
+    /* height: 200px; */
+    border: 1px solid #bdc3c7;
+    border-radius: 10px;
+    /* box-shadow: 0px 4px 0px 2px rgb(7, 25, 76) ; */
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border-collapse: collapse;
+}
+
+.addNew{
+    position: relative;
+    background-color: #162938;
+    height: 45px;
+    width: 180px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 11px 16px;
+    /* margin: 100px 270px; */
+    margin-bottom: 15px;
+    margin-left: 2px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    text-align: left;
+    box-shadow: 0px 2px 0px 1px rgb(130, 180, 226);
+}
+
+.addNew:hover{
+    background-color: rgb(130, 180, 226);
+    color: #162938;
+    box-shadow: 0px 2px 0px 2px #162938 ;
+}
+.patientIcon{
+    position: relative;
+    left: 92%;
+    top: -26px;
+}
+
+.pdf{ 
+    position: relative; 
+    height: 45px; 
+    width:80px; 
+    background-color: #162938; 
+    color: white; 
+    font-size: 16px; 
+    font-weight: bold; 
+    padding: 11px 16px; 
+    margin-bottom: 15px; 
+    margin-right: 2px; 
+    left: 735px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 6px; 
+    text-align: left; 
+    box-shadow: 0px 2px 0px 1px rgb(130, 180, 226); 
+} 
+ 
+.pdf:hover{ 
+    background-color: rgb(130, 180, 226); 
+    color: #162938; 
+    box-shadow: 0px 2px 0px 2px #162938 ; 
+} 
+ 
+.pdfIcon{ 
+    position: absolute; 
+    left:53px; 
+    top: 16px; 
+}
+
+.tr {
+    transition: all .2s ease-in;
+    cursor: pointer;
+    background-color: white;
+}
+
+.th,
+.td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 2px solid #dddddd;
+}
+
+.tbody .tr {
+    height: 70px;
+}
+
+.tbody .tr:hover {
+    background-color: rgb(167, 217, 248);
+    transform: scale(1.02);
+    /* transition: transform 300ms ease-in; */
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.edit{
+    border:none;
+    color: green;
+    background: transparent;
+    
+}
+
+.delete{
+    border:none;
+    color: rgb(230, 8, 8);
+    background: transparent;
+}
