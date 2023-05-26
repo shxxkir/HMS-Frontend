@@ -1,0 +1,50 @@
+.frm{
+    position: absolute;
+    right:10px;
+    top:1px;
+}
+
+
+.bar{
+    position: relative;
+    /* background-color: #162938; */
+    background-color: rgb(210, 218, 218);
+    height: 45px;
+    width: 250px;
+    color: #162938;
+    font-size: 16px;
+    font-weight: bold;
+    /* padding: 11px 16px; */
+    /* margin: 100px 270px; */
+    margin-bottom: 15px;
+    right:90px;
+    border: 2px solid #162938;
+    border-radius: 25px;
+    text-align: left;
+    text-indent: 15px;
+    outline: none;
+
+}
+
+.bar::placeholder{
+    color: #162938;
+}
+
+.bar:hover{
+    /* background-color: #162938; */
+    box-shadow: 0px 0.75px 0px 0.75px #162938
+}
+
+.searchIcon{
+    position: absolute;
+    left:127px;
+    top: 10px;
+    color: #162938;
+}
+/* 
+.icon:hover{
+    background-color: rgb(130, 180, 226);
+    color: white;
+    box-shadow: 0px 2px 0px 2px rgb(130, 180, 226) ;
+} */
+

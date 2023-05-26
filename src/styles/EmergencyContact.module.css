@@ -1,0 +1,41 @@
+.contactContainer{
+    display: flex;
+    background: white;
+    margin: 0;
+}
+
+.contactRow{
+    display: flex;
+    height:400px;
+}
+
+.contactH{
+    margin-top: 60px;
+    margin-left: 600px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+}
+
+.contactRow h4{
+    margin-top: 5%;
+    font-size: 30px;
+}
+
+.contactRow h1{
+    font-size: 70px;
+}
+
+.contactRow p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.contactImage{
+    background: url("../images/figure7.png") no-repeat;
+    width: 900px;
+    height: 900px;
+    position: absolute;
+    top:2085px;
+    left: 50px;
+}
